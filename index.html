@@ -48,6 +48,15 @@ ga('send', 'pageview');
 </head>
 <body>
 
+<div ng-repeat="todo in todos">
+            <a href="#show/{{todo.title}}" >
+                <h2>{{todo.title}}</h2>
+                </a>
+                <br>
+                <a href="#show/{{todo.title}}" >
+                <img ng-src= {{todo.poster}} alt="Image Not Found">
+                </a>
+      </div>
 
 
 
